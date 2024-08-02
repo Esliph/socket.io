@@ -1,7 +1,6 @@
 import { Metadata } from '@esliph/metadata'
-import { isString } from '@esliph/common/util'
 import { Decorator } from '@esliph/decorator'
-import { ClassConstructor } from '../util/types'
+import { ClassConstructor, isString } from '../util/types'
 
 export type EventOptions = {
     event: string
